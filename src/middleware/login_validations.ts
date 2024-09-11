@@ -16,7 +16,7 @@ const loginSchema = z
   })
   .strict();
 
-export const logiValidation = async (
+export const loginValidation = async (
   req: Request,
   res: Response,
   next: NextFunction
