@@ -1,7 +1,7 @@
 import { Router } from "express";
 const router = Router();
 
-import { verify } from "../middleware/verify-token";
+import { verify } from "../middleware/verify_token";
 import { sampleController } from "../controllers/protected";
 
 // sample route - just put the verify middleware before any route here for JWT validation.
